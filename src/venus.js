@@ -1,7 +1,5 @@
-define(function(require, exports, module) {
+define(function (require, exports, module) {
+	var Vango = require('./vango');
+	exports.Vango = Vango;
+})
 
-  var venus;
-
-  module.exports = venus;
-
-});
